@@ -22,9 +22,9 @@ void swap(int *a, int *b)
 int main()
 {
     int array[100], i, size;
-    printf("How many numbers you want to sort:  ");
+    printf("Enter the size of array:-\n");
     scanf("%d", &size);
-    printf("\nEnter %d numbers : ", size);
+    printf("\nEnter %d elements of array:-\n", size);
     for (i = 0; i < size; i++)
         scanf("%d", &array[i]);
     bubblesort(array, size);
